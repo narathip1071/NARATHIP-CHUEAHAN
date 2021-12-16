@@ -18,6 +18,7 @@ namespace FinalTest
                 queue.Push(node);
             }
             char[] shatterssucceed = { 'A', 'B', 'C', 'D', 'E' };
+            processs(ref  queue, char[] shatterssucceed)
         }
 
         static void processs(ref Queue queue,char[] shatterssucceed)
